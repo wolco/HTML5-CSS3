@@ -4,7 +4,7 @@
 	<title>Do It! 이미지 크기 조절하기</title>
 </head>
 <body>
-	<h1>바빠 시리즈</h1>
+	<h1>이미지 크기 조절</h1>
 	<img src="image.png" alt="빠른연산" width="48" height="48">
 </body>
 </html>
