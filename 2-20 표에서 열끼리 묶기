@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Do It! 표에서 열끼리 묶기</title>
+</head>
+<body>
+	<table>
+		<caption>colgroup 연습</caption>
+		<colgroup>
+			<col>
+			<col span="2" style="background-color: blue;">
+			<col style="background-color: yellow;">
+		</colgroup>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+</html>
