@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Do It! SVG 이미지 삽입하기</title>
+</head>
+<body>
+	<h1>SVG 이미지 삽입하기</h1>
+	<img src="svg.svg">
+</body>
+</html>
