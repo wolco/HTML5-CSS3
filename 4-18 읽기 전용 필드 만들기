@@ -1,0 +1,19 @@
+!<!DOCTYPE html>
+<html>
+<head>
+	<title>Do it! 읽기 전용 필드 만들기</title>
+</head>
+<body>
+	<style>
+		ul{
+			list-style-type: none;
+		}
+	</style>
+		<form>
+		<fieldset>
+			<legend>수강과목</legend>
+			<label>영어회화(초급)<input type="text" name="subject" value="오전 9:00~11:00" readonly></label>
+		</fieldset>
+	</form>
+</body>
+</html>
