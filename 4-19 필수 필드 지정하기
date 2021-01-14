@@ -1,0 +1,27 @@
+!<!DOCTYPE html>
+<html>
+<head>
+	<title>Do it! 필수 필드 지정하기</title>
+</head>
+<body>
+	<style>
+		ul{
+			list-style-type: none;
+		}
+	</style>
+	<form>
+		<fieldset>
+			<legend>신청자</legend>
+			<ul>
+				<li><label>이름<input type="textbox" name="name" autofocus required></label></li>
+				<li><label>학번<input type="number" name="number"></label></li>
+				<li><label for="department">학과</label>
+				<select id="department">
+					<option value="컴퓨타공학과">컴퓨터공학과</option>
+				</select>
+				</li>
+			</ul>
+		</fieldset>
+	</form>
+</body>
+</html>
