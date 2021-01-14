@@ -1,0 +1,28 @@
+!<!DOCTYPE html>
+<html>
+<head>
+	<title>Do it! 텍스트 필드에 플레이스 홀더 표시하기</title>
+</head>
+<body>
+	<style>
+		ul{
+			list-style-type: none;
+		}
+	</style>
+	<h1>여름방학 특강 신청</h1>
+	<form>
+		<fieldset>
+			<legend>신청자</legend>
+			<ul>
+				<li><label>이름<input type="textbox" name="name" autofocus></label></li>
+				<li><label>학번<input type="number" name="number" placeholder="하이픈 입력"></label></li>
+				<li><label for="department">학과</label>
+				<select id="department">
+					<option value="컴퓨타공학과">컴퓨터공학과</option>
+				</select>
+				</li>
+			</ul>
+		</fieldset>
+	</form>
+</body>
+</html>
