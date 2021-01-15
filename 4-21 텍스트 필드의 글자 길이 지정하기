@@ -1,0 +1,23 @@
+!<!DOCTYPE html>
+<html>
+<head>
+	<title>Do it! 텍스트 필드의 글자 길이 지정하기</title>
+</head>
+<body>
+	<style>
+		ul{
+			list-style-type: none;
+		}
+	</style>
+	<h2>회원 가입을 환영합니다.</h2>
+	<form>
+			<ul>
+				<li><label>아이디:<input type="text" id="id" size="10" minlength="4" maxlength="15"></label><small style="red">4~15자리 이내의 영문과 숫자</small></li>
+				<li><label>이메일:<input type="email" id="email"></label></li>
+				<li><label>비밀번호:<input type="password" id="pw"></label></li>
+				<li><label>비밀번호 확인:<input type="password" id="pwck"></label></li>
+				<li><label><input type="button" value="회원가입"></label></li>
+			</ul>
+	</form>
+</body>
+</html>
