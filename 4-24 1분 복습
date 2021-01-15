@@ -1,0 +1,22 @@
+!<!DOCTYPE html>
+<html>
+<head>
+	<title>Do it! 1분 복습</title>
+</head>
+<body>
+	<style>
+		ul{
+			list-style-type: none;
+		}
+	</style>
+	<h2>학습 단계 선택</h2>
+	<form>
+			<ul>
+				<li><label><select id="class">
+						<option value="easy">초급</option>
+						<option value="normal">중급</option>
+						<option value="hard">고급</option>
+				</select></label></li>
+	</form>
+</body>
+</html>
