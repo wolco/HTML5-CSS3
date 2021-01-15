@@ -1,0 +1,23 @@
+!<!DOCTYPE html>
+<html>
+<head>
+	<title>Do it! 최대,최솟값,step 지정하기</title>
+</head>
+<body>
+	<style>
+		ul{
+			list-style-type: none;
+		}
+	</style>
+	<form>
+		<fieldset>
+			<legend>교재 주문</legend>
+			<ul>
+				<li><label>교재<input type="number" value="1"></label></li>
+				<li><label>위크시트<input type="number" value="1"></label></li>
+				<li><label>단체주문<input type="number" value="10" step="10"></label></li>
+			</ul>
+		</fieldset>
+	</form>
+</body>
+</html>
