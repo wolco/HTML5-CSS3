@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Do it! 진행 상태 막대 삽입하기</title>
+</head>
+<body>
+	<style>
+		ul{
+			list-style-type: none;
+		}
+	</style>
+	<form>
+		<ul>
+			<li>
+				<label>10초 남음</label>
+				<progress value="50" max="60"></progress>
+			</li>
+			<li>
+				<label>진행률 30%</label>
+				<progress value="30" max="100">
+			</li>
+		</ul>
+	</form>
+</body>
+</html>
