@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Do it! 전체 크기 중 차지하는 크기 삽입하기</title>
+</head>
+<body>
+	<style>
+		ul{
+			list-style-type: none;
+		}
+	</style>
+	<form>
+		<ul>
+			<li>
+				<label>점유율 0.8</label>
+				<meter value="0.8"></meter>
+			</li>
+			<li>
+				<label>사용량 64%</label>
+				<meter value="64" max="100" min="0"></meter>
+			</li>
+			<li>
+				<label>트래픽 초과</label>
+				<meter value="9216" max="10240" min="1024" low="2048"></meter>
+			</li>
+			<li>
+				<label>적절한 트래픽</label>
+				<meter value="0.5" optimum="0.8"></meter>
+			</li>
+		</ul>
+	</form>
+</body>
+</html>
