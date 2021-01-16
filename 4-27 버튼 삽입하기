@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Do it! 텍스트 영역 삽입하기</title>
+</head>
+<body>
+	<form>
+		<button type="submit" class="subm">
+			<img src="image.png">전송하기
+		</button>
+	</form>
+</body>
+</html>
