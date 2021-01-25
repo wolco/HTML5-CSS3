@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.left{
+			text-align: left;
+		}
+		.right{
+			text-align: right;
+		}
+		.center{
+			text-align: center;
+		}
+		.justify{
+			text-align: justify;
+		}
+	</style>
+</head>
+<body>
+	<p class="left">텍스트 스타일은 글자와 단어들, 그리고 글자들로 이루어진 문단에서 사용되는 스타일 입니다.</p>
+	<p class="right">텍스트 스타일은 글자와 단어들, 그리고 글자들로 이루어진 문단에서 사용되는 스타일 입니다.</p>
+	<p class="center">텍스트 스타일은 글자와 단어들, 그리고 글자들로 이루어진 문단에서 사용되는 스타일 입니다.</p>
+	<p class="justify">텍스트 스타일은 글자와 단어들, 그리고 글자들로 이루어진 문단에서 사용되는 스타일 입니다.</p>
+</body>
+</html>
