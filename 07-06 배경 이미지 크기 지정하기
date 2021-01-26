@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.bg1{
+			background: url('image.jpg') no-repeat left top;
+			background-size: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="bg1"></div>
+</body>
