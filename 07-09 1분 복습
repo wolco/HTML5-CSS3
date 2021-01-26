@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		div{
+			width: 400px;
+			height: 200px;
+			background: url('image.jpg')no-repeat right bottom;
+			background-size: contain;
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
