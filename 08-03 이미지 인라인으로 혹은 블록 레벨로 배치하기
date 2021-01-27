@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#block img{
+			display: block;
+			margin: 10px;
+		}
+	</style>	
+</head>
+<body>
+	<div>
+		<img src="image0.jpg">
+		<img src="image1.jpg">
+		<img src="image2.jpg">
+	</div>
+	<div id="block">
+		<img src="image0.jpg">
+		<img src="image1.jpg">
+		<img src="image2.jpg">
+	</div>
+</body>
+</html>
