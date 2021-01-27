@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		div{
+			width: 200px;
+			height: 100px;
+			margin: 15px;
+			display: inline-block;
+			border-style: dashed;
+			border-width: 2px;
+		}
+	</style>	
+</head>
+<body>
+	<div style="border-color: red"></div>
+	<div style="border-color: blue"></div>
+</body>
+</html>
