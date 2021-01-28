@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		div{
+			width: 100px;
+			height: 100px;
+			background: #0094ff;
+		}
+		.box1{
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="box1"></div>
+</body>
+</html>
