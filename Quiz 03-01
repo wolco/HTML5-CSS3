@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<h1>이미지 삽입하기</h1>
+	<img src="image0.jpg">
+</body>
+</html>
