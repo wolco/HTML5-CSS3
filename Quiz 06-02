@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		ul{
+			list-style-type: none;
+		}
+		.accent{
+			font-weight: 700;
+			font-size: large;
+			color: #ad3000;
+			line-height: 200%;
+		}
+	</style>
+</head>
+<body>
+	<h2>최신 웹 디자인 트렌드</h2>
+	<ul>
+		<li><span class="accent">반응형 웹 디자인</span> - 다양한 화면 크기에 최적화하다.</li>
+		<li><span class="accent">플랫 디자인</span> - 입체에서 평면으로</li>
+		<li><span class="accent">원 페이지 사이트</span> - 한 페이지에 모든 내용을 담다</li>
+		<li><span class="accent">패럴랙스 스크롤링</span> - 동적인 효과로 강한 인상을!</li>
+		<li><span class="accent">웹 폰트</span> - 웹 타이포그래피를 받쳐주는 기술</li>
+	</ul>
+</body>
+</html>
