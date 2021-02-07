@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.multi{
+			column-count: 3;
+			column-rule: 2px dotted #000;
+			text-align: justify;
+		}
+		.multi h3{
+			break-before: column;
+		}
+	</style>
+</head>
+<body>
+	<h4>-webkit-column</h4>
+	<div class="multi">
+		<h3>-webkit-column</h3>
+		<p style="color: red;">
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+		</p>
+		<h3>-webkit-column</h3>
+		<p style="color: blue;">
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+		</p>
+		<h3>-webkit-column</h3>
+		<p style="color: green">
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+		</p>
+	</div>
+</body>
+</html>
