@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.box{
+			width: 100px;
+			height: 100px;
+			position: relative; 
+			border-width: 1px;
+			border-style: solid;
+		}
+		#b1{
+			z-index: 1;
+			background: red;
+			top: 75px;
+			left: 50px;
+		}
+		#b2{
+			z-index: 3;
+			background: yellow;
+			left: 75px;
+		}
+		#b3{
+			z-index: 1;
+			background: blue;
+			bottom: 85px;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="box" id="b1">1</div>
+		<div class="box" id="b2">2</div>
+		<div class="box" id="b3">3</div>
+	</div>
+</body>
+</html>
