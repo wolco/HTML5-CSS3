@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.multi{
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+
+		}
+	</style>
+</head>
+<body>
+	<h4>-webkit-column</h4>
+	<div class="multi">
+		<p style="color: red;">-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+		</p>
+		<p style="color: blue;">-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+		</p>
+		<p style="color: green">-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+			-webkit-column-width:120px;
+			-moz-column-width:120px;
+			column-width: 120px;
+		</p>
+	</div>
+</body>
+</html>
