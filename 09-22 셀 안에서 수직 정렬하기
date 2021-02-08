@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		table{
+			border: 1px solid black;
+			width: 100px;
+			height: 300px;
+		}
+		td{
+			border: 1px solid black;
+			width: 100px;
+			height: 300px;
+		}
+		.var1{
+			vertical-align: top;
+		}
+		.var2{
+			vertical-align: bottom;
+		}
+		.var3{
+			vertical-align: middle;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<caption>certical-alignment</caption>
+		<tr>
+			<td class="var1">alignment</td>
+			<td class="var2">alignment</td>
+			<td class="var3">alignment</td>
+		</tr>
+	</table>
+</body>
+</html>
