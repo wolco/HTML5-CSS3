@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 <head>
 	<style>
-		.main{
+		.main li {
 			float: left;
 			margin: 15px 15px 20px 15px;
 		}
@@ -17,11 +17,11 @@
 	</style>
 </head>
 <body>
-	<div>
-		<li class="main">애완견 종류</li>
-		<li class="main">입양하기</li>
-		<li class="main">건강돌보기</li>
-		<li class="main">더불어살기</li>
+	<div class="main">
+		<li>애완견 종류</li>
+		<li>입양하기</li>
+		<li>건강돌보기</li>
+		<li>더불어살기</li>
 	</div>
 	<h3 class="clear">강아지 용품 준비하기</h3>
 	<div class="dot">
