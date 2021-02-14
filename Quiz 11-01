@@ -4,6 +4,6 @@
 </head>
 <body>
 	<h2>오디오 재생하기</h2>
-	<audio src="music.mp4" controls></audio>
+	<audio src="11/media/bgsound2.mp3" controls></audio>
 </body>
 </html>
