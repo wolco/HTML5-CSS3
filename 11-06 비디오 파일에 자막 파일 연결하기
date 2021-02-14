@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<video controls>
+		<source src="Painting.mp4" type="video/mp4">
+		<source src="Painting.webm" type="video/webm">
+		<track src="media/Paintimg.vtt" srclang="ko" label="korean" default>
+	</video>
+</body>
+</html>
