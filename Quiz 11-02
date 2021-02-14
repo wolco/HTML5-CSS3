@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<h2>SUMMER BEACH</h2>
+	<video src="11/media/Beach.mp4" width="400" height="220" controls></video>
+	<video src="11/media/Beach.webm" width="400" height="220" controls></video>
+</body>
+</html>
