@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<h2>오디오 재생하기</h2>
+	<audio src="music.mp4" controls></audio>
+</body>
+</html>
