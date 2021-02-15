@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		div + p{
+			color:blue;
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<div></div>
+		<p>문장1</p>
+		<p>문장2</p>
+	</section>
+</body>
+</html>
