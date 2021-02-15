@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		a[href]{
+			background: yellow;
+		}
+		ul{
+			list-style-type: none;
+		}
+		li{
+			float: left;
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a> 메인 메뉴 : </a></li>
+		<li><a href="#">메뉴 1</a></li>
+		<li><a href="#">메뉴 2</a></li>
+		<li><a href="#">메뉴 3</a></li>
+		<li><a href="#">메뉴 4</a></li>
+	</ul>
+</body>
+</html>
