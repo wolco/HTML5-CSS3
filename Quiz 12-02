@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		ul{
+			list-style-type: none;
+		}
+		ul li{
+			float: left;
+			margin: 20px;
+			color: black;
+		}
+		a:active{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<fieldset>
+		<ul>
+			<li><a herf="#">메뉴1</a></li>
+			<li><a herf="#">메뉴2</a></li>
+			<li><a herf="#">메뉴3</li>
+		</ul>
+	</fieldset>
+</body>
+</html>
