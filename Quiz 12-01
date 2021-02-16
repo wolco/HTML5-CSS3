@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.point:hover{
+			border: 5px solid black;
+		}
+	</style>
+</head>
+<body>
+	<h3>이미지 위로 마우스 포인트를 올려보세요.</h3>
+	<img src="image.jpg" class="point">
+</body>
+</html>
