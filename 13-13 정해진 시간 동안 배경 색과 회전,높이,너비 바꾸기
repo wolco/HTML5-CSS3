@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.tr1{
+			text-align: center;
+			width: 100px;
+			height: 100px;
+			background-color: blue;
+			border: 1px solid black;
+			transition-property: background-color, transform, width, height;
+			transition-duration: 2s,3s;
+		}
+		.tr1:hover{
+			width: 200px;
+			height: 200px;
+			background-color: #ff6e5f;
+			transform: rotate(180deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="tr1"><h1>!</h1></div>
+</body>
+</html>
