@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.pic:hover{
+			transform: rotate(30deg);
+			transform-origin: right top;
+		}
+	</style>
+</head>
+<body>
+	<img src="images.jpg" class="pic">
+</body>
+</html>
