@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		div{
+			float: left;
+			margin: 10px;
+		}
+		.rotatex img{
+			transform: rotateX(50deg);
+		}
+		#pers{
+			perspective: 300px;
+		}
+	</style>
+</head>
+<body>
+	<h4>원본 이미지</h4>
+	<div>
+		<img src="images.jpg" alt="">
+	</div>
+	<div id="no-pers">
+		<div class="rotatex"><img src="images.jpg" alt=""></div>
+	</div>
+	<div id="pers">
+		<div class="rotatex"><img src="images.jpg" alt=""></div>
+	</div>
+</body>
+</html>
