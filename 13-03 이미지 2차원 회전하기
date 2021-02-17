@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.rotate1:hover{
+			transform: rotate(20deg);
+		}
+		.rotate2:hover{
+			transform: rotate(-40deg);
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="rotate1"><img src="images.jpg"></div>
+	</div>
+	<div>
+		<div class="rotate2"><img src="images.jpg"></div>
+	</div>
+</body>
+</html>
