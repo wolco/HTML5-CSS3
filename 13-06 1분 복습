@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.pic:hover{
+			transform: scale(2);
+		}
+	</style>
+</head>
+<body>
+	<img src="images.jpg" alt="메리골드 꽃" class="pic">
+</body>
+</html>
