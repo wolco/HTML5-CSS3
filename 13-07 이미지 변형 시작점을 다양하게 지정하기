@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.rose{
+			transform: rotateZ(10deg);
+		}
+		.ltop .rose{
+			transform-origin: left top;
+		}
+		.rtop .rose{
+			transform-origin: right top;
+		}
+		.lbottom .rose{
+			transform-origin: left bottom;
+		}
+		.rbottom .rose{
+			transform-origin: right bottom;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="ltop"><img src="images.jpg" class="rose"></div>
+	</div>
+	<div>
+		<div class="rtop"><img src="images.jpg" class="rose"></div>
+	</div>
+	<div>
+		<div class="lbottom"><img src="images.jpg" class="rose"></div>
+	</div>
+	<div>
+		<div class="rbottom"><img src="images.jpg" class="rose"></div>
+	</div>
+</body>
+</html>
