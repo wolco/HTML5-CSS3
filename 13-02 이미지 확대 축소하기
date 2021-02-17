@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.movex:hover{
+			transform: scaleX(1.2);
+		}
+		.movey:hover{
+			transform: scaleY(1.5);
+		}
+		.movexy:hover{
+			transform: scale(0.7);
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="movex"><img src="images.jpg"></div>
+	</div>
+	<div>
+		<div class="movey"><img src="images.jpg"></div>
+	</div>
+	<div>
+		<div class="movexy"><img src="images.jpg"></div>
+	</div>
+</body>
+</html>
