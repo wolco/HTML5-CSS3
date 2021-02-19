@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.rect{
+			width: 100px;
+			height: 100px;
+			background: green;
+			transition: background 3s;
+		}
+		.rect:hover{
+			background: yellow;
+		}
+	</style>
+</head>
+<body>
+	<div class="rect"></div>
+</body>
+</html>
