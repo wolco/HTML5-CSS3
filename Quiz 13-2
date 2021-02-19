@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		img:hover{
+			transform: rotate(20deg);
+			border: 1px solid black;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+	<img src="images.jpg">
+</body>
+</html>
