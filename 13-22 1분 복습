@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		div{
+			width: 50px;
+			height: 100px;
+			border: 1px solid darkgray;
+			background: #b6ff00;
+			animation: ani 3s alternate infinite ease-in;
+		}
+		@keyframes ani{
+			from{
+				width: 50px;
+			}
+			to{
+				width: 300px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
