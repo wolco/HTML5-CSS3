@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background: url(images.jpg) no-repeat fixed;
+			background-size: cover;
+		}
+		@media screen and (max-width: 1024px){
+			body{
+				background: url(images1.jpg) no-repeat fixed;
+				background-size: cover;
+			}
+		}
+		@media screen and (max-width: 768px){
+			body{
+				background: url(images2.jpg) no-repeat fixed;
+				background-size: cover;
+			}
+		}
+		@media screen and (max-width: 320px){
+			body{
+				background: url(images3.jpg) no-repeat fixed;
+				background-size: cover;
+			}
+		}
+	</style>
+</head>
+<body>
+</body>
+</html>
